@@ -51,3 +51,10 @@ img {
   background-size: cover;
   height: 650px;
 }
+
+.hero-container {
+  display: grid;
+  justify-items: center;
+  align-content: center;
+  height: 100%;
+}
