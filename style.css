@@ -1,1 +1,39 @@
 @charset "UTF-8";
+
+/* 基本 */
+body {
+  margin: 0;
+  background-color: #eeeeee;
+}
+
+img {
+  display: block;
+}
+
+/* ヘッダー */
+.header {
+  height: 112px;
+  background-color: #ffffff;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.w-container {
+  width: min(92%, 1166px);
+  margin: auto;
+}
+
+.navbtn {
+  color: #aaaaaa;
+  font-size: 30px;
+  background: transparent;
+  padding: 0;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
