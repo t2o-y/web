@@ -59,10 +59,23 @@ img {
 }
 
 .hero {
+  /*
   background-image: url("img/hero.jpg");
   background-position: center;
   background-size: cover;
-  height: 650px;
+  */
+  display: grid;
+  grid-template-rows: 650px;
+}
+
+.hero > * {
+  grid-area: 1 / 1;
+}
+
+.hero > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .hero-container {
